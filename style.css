@@ -292,11 +292,17 @@ footer p
 
 @media screen and (max-width:810px)
 {
+    #title
+    {
+        font-size: x-large;
+        font-weight: 700;
+
+    }
     
     .nav
     {
         position: absolute;
-        top:5em;
+        top:5.15em;
         height: auto;
         width: 100%;
         background-color:cadetblue;
