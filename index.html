@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DConsultancy</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <h3 id="title">Deepan's <span id="con">Consultancy</span></h3>
+            <div class="nav">
+                    <a href="#">About</a>
+                    <a href="#">Service</a>
+                    <a href="#">Projects</a>
+                    <a href="#" >Good To Know</a>
+                    <a href="#">Clients</a>
+                    <a href="#">Contact</a>
+                    <a href="#"><i class="fa fa-user-circle" aria-hidden="true"></i>Log In</a>
+            </div>
+
+            <div class="burger">
+                <div class="l1"></div>
+                <div class="l2"></div>
+                <div class="l3"></div>
+            </div>
+               
+    </header>
+
+    <main>
+        <div id="img">
+            <img src="consult.jpg" alt="consultation">
+        </div>
+
+        <div id="container">
+            <div id="hp-box">
+                <p id="develop">developing innovative strategies</p>
+                <h3 id="growth">achieving growth</h3>   
+            </div>
+            
+
+            <div id="tray">
+                <div class="box">
+                    <p class="lil-heads">Service</p>
+                    <p class="para">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you</p>
+                     <button class="btn">More info</button>
+                </div>
+                <div class="box">
+                    <p class="lil-heads">projects</p>
+                    <p class="para">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you</p>
+                     <button class="btn">More info</button>
+                </div>
+                <div class="box">
+                    <p class="lil-heads">clients</p>
+                    <p class="para">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you</p>
+                    <button class="btn">More info</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="about">
+            <h3>about us</h3>
+            <p>We all already know the importance of keeping the customers we’ve worked so hard to get.
+
+                You can probably list out all the things that you think you should be doing to be better in this critical area.
+                
+                So what does your organization genuinely need to do to create evergreen revenue growth, happier customers, and be the market leader?</p>
+            <p></p>
+            <button id="readinfo">Read info</button>
+        </div>
+        <div id="contact">
+            <h3>contact us</h3>
+            <form id="contact-box">
+               <p>Enter your name</p>
+               <input type="text" >
+               <p>enter your email</p>
+               <input type="text">
+               <p>Enter your subject</p>
+               <input type="text"><br>
+               <button id="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2020 by Deepan's Consultancy</p>
+        <p>Created by Deepanraj</p>
+
+        <div id="icon-tray">
+            <a href="https://instagram.com/my_blind_soul?igshid=cwxaihe57sc7" > <i class="fa fa-instagram" aria-hidden="true"></i></a></i>
+            <a href="https://twitter.com/DeepAn_Dj28?s=09" ><i class="fa fa-twitter" aria-hidden="true"></i></a> 
+            <a href=""><i class="fa fa-telegram" aria-hidden="true"></i></a> 
+      </div>
+    </footer>
+    <script src="app.js"></script>
+    <script type="text/javascript">
+        window.addEventListener('scroll',()=>
+        {
+            let header=document.querySelector("header");
+            header.classList.toggle('sticky',window.scrollY > 0);
+
+        }
+        );
+    </script>
+</body>
+
+</html>
