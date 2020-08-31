@@ -59,6 +59,8 @@ header{
 {
     cursor: pointer;
     display: none;
+    width: 35px;
+    height: auto;
     
 }
 
@@ -302,7 +304,7 @@ footer p
     .nav
     {
         position: absolute;
-        top:5.15em;
+        top:5.1em;
         height: auto;
         width: 100%;
         background-color:cadetblue;
